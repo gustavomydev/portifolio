@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Mônaco Yonekura — Portfólio</title>
+  <meta name="description" content="Portfólio de Gustavo Mônaco Yonekura — desenvolvedor web apaixonado por tecnologia, criatividade e experiências digitais.">
+  <meta name="author" content="Gustavo Mônaco Yonekura">
+  <meta property="og:title" content="Gustavo Mônaco Yonekura — Portfólio">
+  <meta property="og:description" content="Transformando ideias em experiências digitais.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ============ GRAIN ============ -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header id="header">
+    <a class="nav-logo" href="#inicio">
+      <span class="logo-g">G</span><span class="logo-dot">.</span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ MOBILE OVERLAY ============ -->
+  <div class="nav-overlay" id="navOverlay">
+    <ul class="nav-overlay-links">
+      <li><a href="#inicio" class="overlay-link">Início</a></li>
+      <li><a href="#sobre" class="overlay-link">Sobre</a></li>
+      <li><a href="#projetos" class="overlay-link">Projetos</a></li>
+      <li><a href="#habilidades" class="overlay-link">Habilidades</a></li>
+      <li><a href="#contato" class="overlay-link">Contato</a></li>
+    </ul>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow rv">
+        <span class="eyebrow-line"></span>
+        <span>Desenvolvedor Web · Designer</span>
+      </div>
+      <h1 class="hero-name rv">
+        <span class="name-first">Gustavo</span>
+        <span class="name-last">Mônaco<br><em>Yonekura</em></span>
+      </h1>
+      <p class="hero-tagline rv">Transformando ideias em <span class="highlight">experiências digitais.</span></p>
+      <p class="hero-desc rv">
+        Apaixonado por tecnologia, desenvolvimento web e criação de soluções digitais que unem estética e funcionalidade.
+        Cada projeto é uma oportunidade de resolver problemas com criatividade e precisão.
+      </p>
+      <div class="hero-actions rv">
+        <a href="#projetos" class="btn btn-primary">
+          <span>Ver projetos</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contato" class="btn btn-ghost">Entrar em contato</a>
+      </div>
+    </div>
+    <div class="hero-scroll rv" aria-hidden="true">
+      <span>Role para explorar</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-counter" aria-hidden="true">
+      <div class="counter-item rv">
+        <span class="counter-num">02</span>
+        <span class="counter-label">Projetos</span>
+      </div>
+      <div class="counter-sep"></div>
+      <div class="counter-item rv">
+        <span class="counter-num">∞</span>
+        <span class="counter-label">Possibilidades</span>
+      </div>
+      <div class="counter-sep"></div>
+      <div class="counter-item rv">
+        <span class="counter-num">01</span>
+        <span class="counter-label">Foco</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Design Web</span>
+      <span>UI/UX</span><span>Responsivo</span><span>Animações</span><span>Experiência Digital</span>
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Design Web</span>
+      <span>UI/UX</span><span>Responsivo</span><span>Animações</span><span>Experiência Digital</span>
+    </div>
+  </div>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="section-label rv">
+        <span class="label-num">01</span>
+        <span class="label-line"></span>
+        <span>Sobre mim</span>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <h2 class="section-title rv">Criando com propósito, <em>pensando em cada detalhe.</em></h2>
+          <p class="rv">
+            Sou Gustavo Mônaco Yonekura, interessado em desenvolvimento web, tecnologia e criação de soluções digitais.
+            Acredito que a tecnologia é uma das ferramentas mais poderosas para transformar ideias em realidade — e é exatamente isso que me motiva a seguir aprendendo e evoluindo.
+          </p>
+          <p class="rv">
+            Me interesso pela interseção entre design e código: quero que tudo o que construo não só funcione com excelência,
+            mas também seja visualmente atraente, intuitivo e memorável. Gosto de encarar cada projeto como um problema a ser
+            resolvido com criatividade, atenção aos detalhes e cuidado com a experiência do usuário.
+          </p>
+          <p class="rv">
+            Programação, para mim, vai além de escrever código — é sobre resolver problemas reais, comunicar ideias com clareza
+            e criar experiências digitais que realmente fazem diferença.
+          </p>
+        </div>
+        <div class="sobre-visual rv">
+          <div class="sobre-card">
+            <div class="sobre-card-inner">
+              <div class="sobre-initials">GMY</div>
+              <div class="sobre-info">
+                <span class="sobre-role">Desenvolvedor Web</span>
+                <span class="sobre-loc">Brasil</span>
+              </div>
+              <div class="sobre-tags">
+                <span>Criatividade</span>
+                <span>Tecnologia</span>
+                <span>Precisão</span>
+                <span>Inovação</span>
+              </div>
+            </div>
+          </div>
+          <div class="sobre-deco" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS ============ -->
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="section-label rv">
+        <span class="label-num">02</span>
+        <span class="label-line"></span>
+        <span>Projetos</span>
+      </div>
+      <div class="projetos-header rv">
+        <h2 class="section-title">Trabalhos <em>selecionados.</em></h2>
+        <p>Cada projeto carrega uma história, um desafio e uma solução construída com atenção aos detalhes.</p>
+      </div>
+
+      <!-- PROJETO 01 — ARCOR -->
+      <article class="projeto-item rv" id="proj-arcor">
+        <div class="projeto-meta">
+          <span class="proj-num">01</span>
+          <div class="proj-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Design Editorial</span>
+          </div>
+        </div>
+        <div class="projeto-layout">
+          <div class="projeto-preview">
+            <div class="preview-frame">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-url">gustahiro.github.io/site-arcor</span>
+              </div>
+              <div class="preview-screen arcor-preview">
+                <div class="arcor-mockup">
+                  <div class="am-nav">
+                    <span class="am-logo">Arcor <small>Brasil</small></span>
+                    <div class="am-nav-links">
+                      <span>Exposição</span>
+                      <span>Paçoca</span>
+                      <span>7 Belo</span>
+                    </div>
+                  </div>
+                  <div class="am-hero">
+                    <div class="am-eyebrow">Arcor do Brasil · Apresentação institucional</div>
+                    <div class="am-title">Doce é<br><em>o amor.</em></div>
+                    <div class="am-sub">Três marcas que atravessam gerações reunidas em uma exposição sobre memória, sabor e imaginação.</div>
+                  </div>
+                  <div class="am-marquee">
+                    <span>Paçoca do Amor</span> ✦ <span>7 Belo</span> ✦ <span>Poosh!</span> ✦ <span>Arcor</span>
+                  </div>
+                  <div class="am-brands">
+                    <div class="am-brand">
+                      <div class="am-brand-img am-img-pacoca"></div>
+                      <div class="am-brand-copy">
+                        <div class="am-brand-num">— nº 01</div>
+                        <div class="am-brand-name">Paçoca<br>do Amor</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="preview-glow arcor-glow"></div>
+          </div>
+        </div>
+        <div class="projeto-info">
+          <h3 class="proj-title">Site Arcor<br><em>Brasil</em></h3>
+          <p class="proj-desc">
+            Apresentação institucional para a Arcor do Brasil — uma experiência editorial que reúne três marcas icônicas:
+            <strong>Paçoca do Amor</strong>, <strong>7 Belo</strong> e <strong>Poosh!</strong> em uma narrativa visual sobre memória afetiva e identidade de marca.
+          </p>
+          <p class="proj-desc">
+            O projeto entrega uma expografia digital em preto e branco com tipografia serif editorial, animações de revelação no scroll,
+            navegação fixa com glassmorphism e transições de cor ao hover — criando contraste sofisticado entre o monocromático e o colorido real das marcas.
+          </p>
+          <div class="proj-highlights">
+            <div class="proj-hl">
+              <span class="hl-label">Estética</span>
+              <span class="hl-value">Editorial · Preto & Branco</span>
+            </div>
+            <div class="proj-hl">
+              <span class="hl-label">Marcas</span>
+              <span class="hl-value">3 marcas Arcor</span>
+            </div>
+            <div class="proj-hl">
+              <span class="hl-label">Tipo</span>
+              <span class="hl-value">Institucional · Expografia</span>
+            </div>
+          </div>
+          <a href="https://gustahiro.github.io/site-arcor/" target="_blank" rel="noopener noreferrer" class="btn btn-primary proj-btn">
+            <span>Visualizar projeto</span>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJETO 02 — AUTO WORK -->
+      <article class="projeto-item projeto-reverse rv" id="proj-aw">
+        <div class="projeto-meta">
+          <span class="proj-num">02</span>
+          <div class="proj-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>UI Design</span>
+            <span>Automação</span>
+          </div>
+        </div>
+        <div class="projeto-layout">
+          <div class="projeto-preview">
+            <div class="preview-frame">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-url">gustahiro.github.io/Apresenta-oAW</span>
+              </div>
+              <div class="preview-screen aw-preview">
+                <div class="aw-mockup">
+                  <div class="aw-nav">
+                    <span class="aw-logo">Auto<strong>Work</strong></span>
+                    <div class="aw-theme-btn">Modo escuro</div>
+                  </div>
+                  <div class="aw-hero">
+                    <div class="aw-eyebrow">Automação institucional</div>
+                    <div class="aw-title">Deixe o trabalho seguir o ritmo certo.</div>
+                    <div class="aw-sub">O AutoWork organiza rotinas, executa ações em sequência e entrega mais eficiência.</div>
+                    <div class="aw-buttons">
+                      <div class="aw-btn-primary">Conhecer o produto</div>
+                      <div class="aw-btn-outline">Ver demonstração</div>
+                    </div>
+                    <div class="aw-robot">
+                      <div class="aw-robot-core"></div>
+                    </div>
+                  </div>
+                  <div class="aw-cards">
+                    <div class="aw-card"><div class="aw-card-num">01</div><div class="aw-card-title">Fluxo contínuo</div></div>
+                    <div class="aw-card"><div class="aw-card-num">02</div><div class="aw-card-title">Execução precisa</div></div>
+                    <div class="aw-card"><div class="aw-card-num">03</div><div class="aw-card-title">Gestão inteligente</div></div>
+                  </div>
+                  <div class="aw-terminal">
+                    <div class="aw-terminal-bar">
+                      <span class="aw-dot"></span><span class="aw-dot"></span><span class="aw-dot"></span>
+                      <span>AutoWork — Terminal</span>
+                    </div>
+                    <div class="aw-terminal-body">
+                      <span class="aw-cursor">▮</span> Aguardando instrução...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="preview-glow aw-glow"></div>
+          </div>
+        </div>
+        <div class="projeto-info">
+          <h3 class="proj-title">AutoWork<br><em>Apresentação</em></h3>
+          <p class="proj-desc">
+            Apresentação institucional para o <strong>AutoWork</strong> — uma solução de automação de trabalho que organiza rotinas,
+            executa processos em sequência e entrega eficiência para ambientes corporativos e operacionais.
+          </p>
+          <p class="proj-desc">
+            O site inclui uma demonstração interativa com terminal animado, alternância de tema claro/escuro, sistema de abas para casos de uso
+            (escritório, financeiro, atendimento), FAQ com acordeão e uma seção de passos com animações de scroll — tudo construído com HTML, CSS e JavaScript puro.
+          </p>
+          <div class="proj-highlights">
+            <div class="proj-hl">
+              <span class="hl-label">Interatividade</span>
+              <span class="hl-value">Terminal · Abas · FAQ</span>
+            </div>
+            <div class="proj-hl">
+              <span class="hl-label">Tema</span>
+              <span class="hl-value">Claro & Escuro</span>
+            </div>
+            <div class="proj-hl">
+              <span class="hl-label">Tipo</span>
+              <span class="hl-value">Produto · Institucional</span>
+            </div>
+          </div>
+          <a href="https://gustahiro.github.io/Apresenta-oAW/" target="_blank" rel="noopener noreferrer" class="btn btn-primary proj-btn">
+            <span>Visualizar projeto</span>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 12L12 2M12 2H5M12 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ HABILIDADES ============ -->
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="section-label rv">
+        <span class="label-num">03</span>
+        <span class="label-line"></span>
+        <span>Habilidades</span>
+      </div>
+      <div class="hab-header rv">
+        <h2 class="section-title">Tecnologias & <em>ferramentas.</em></h2>
+        <p>Conhecimentos aplicados na criação de experiências digitais funcionais e bem construídas.</p>
+      </div>
+      <div class="hab-grid">
+
+        <div class="hab-category rv">
+          <div class="hab-cat-label">Estrutura & Marcação</div>
+          <div class="hab-items">
+            <div class="hab-item">
+              <div class="hab-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 3L5.57 19.07L12 21L18.43 19.07L20 3H4Z" fill="#E44D26"/><path d="M12 19.56V5H17.71L16.5 17.75L12 19.56Z" fill="#F16529"/><path d="M8.69 10.25H12V8H6.72L7.09 12.25H12V14.5H9.4L9.14 17.65L12 18.44V15.75H10.63L10.37 12.25H12V10.25H8.69Z" fill="white"/><path d="M12 10.25V12.25H14.63L14.37 15.25L12 15.75V18.44L14.86 17.65L15.1 14.5H12V12.25H15.5L16 8H12V10.25Z" fill="white"/></svg>
+              </div>
+              <span>HTML5</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 3L5.57 19.07L12 21L18.43 19.07L20 3H4Z" fill="#264DE4"/><path d="M12 19.56V5H17.71L16.5 17.75L12 19.56Z" fill="#2965F1"/><path d="M8.69 10.25H12V8H6.72L7.72 19.25L12 20.44V17.75L9.4 17.03L9.14 13.75H12V11.5H7.09L6.72 8H12V10.25H8.69Z" fill="white"/><path d="M12 10.25V11.5H14.63L14.5 13.75H12V17.03L14.6 17.75L14.86 14.5H12V11.5H16.91L16 20.44L12 21.44V24L18.5 22.25L19.28 13H12V10.25Z" fill="white"/></svg>
+              </div>
+              <span>CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hab-category rv">
+          <div class="hab-cat-label">Programação</div>
+          <div class="hab-items">
+            <div class="hab-item">
+              <div class="hab-icon">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#F7DF1E"/><path d="M6.49 17.56c.23.38.53.67 1.14.67.6 0 .98-.3.98-.72 0-.5-.4-.68-.97-.95l-.33-.14c-.97-.41-1.61-.93-1.61-2.03 0-1.01.77-1.78 1.97-1.78.86 0 1.47.3 1.91 1.08l-1.05.67c-.23-.41-.48-.57-.86-.57-.39 0-.64.25-.64.57 0 .4.25.56.83.8l.33.14c1.14.49 1.78.99 1.78 2.12 0 1.21-.95 1.88-2.23 1.88-1.25 0-2.06-.6-2.45-1.37l1.2-.37zm5.57-.09c.17.3.33.56.7.56.36 0 .58-.14.58-.69v-3.72h1.44v3.74c0 1.14-.67 1.65-1.65 1.65-.89 0-1.4-.46-1.66-.99l.59-.55z" fill="black"/></svg>
+              </div>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hab-category rv">
+          <div class="hab-cat-label">Design & UI</div>
+          <div class="hab-items">
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span>UI Design</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M9 9v12" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <span>Layout Responsivo</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12s2.545-5 7-5c4.454 0 7 5 7 5s-2.546 5-7 5c-4.455 0-7-5-7-5z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <span>UX / Experiência</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hab-category rv">
+          <div class="hab-cat-label">Técnicas & Padrões</div>
+          <div class="hab-items">
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span>CSS Animations</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span>SEO Básico</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M9 7h6M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <span>Design Editorial</span>
+            </div>
+            <div class="hab-item">
+              <div class="hab-icon ui-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span>GitHub / Deploy</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="section-label rv">
+        <span class="label-num">04</span>
+        <span class="label-line"></span>
+        <span>Contato</span>
+      </div>
+      <div class="contato-inner">
+        <div class="contato-text rv">
+          <h2 class="section-title contato-title">Vamos <em>conversar</em><br>sobre seu projeto.</h2>
+          <p>
+            Estou aberto a novas oportunidades, projetos e colaborações. Se você tem uma ideia que quer tirar do papel,
+            uma solução digital para construir, ou simplesmente quer trocar uma ideia — estou aqui.
+          </p>
+          <div class="contato-links">
+            <a href="https://github.com/gustahiro" target="_blank" rel="noopener noreferrer" class="contato-link">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="cl-info">
+                <span class="cl-label">GitHub</span>
+                <span class="cl-value">github.com/gustahiro</span>
+              </div>
+              <svg class="cl-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14L14 2M14 2H7M14 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <a href="mailto:gustahiro@gmail.com" class="contato-link">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <div class="cl-info">
+                <span class="cl-label">E-mail</span>
+                <span class="cl-value">gustahiro@gmail.com</span>
+              </div>
+              <svg class="cl-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14L14 2M14 2H7M14 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/gustavo-monaco-a02139399/" target="_blank" rel="noopener noreferrer" class="contato-link">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+              </div>
+              <div class="cl-info">
+                <span class="cl-label">LinkedIn</span>
+                <span class="cl-value">gustavo-monaco</span>
+              </div>
+              <svg class="cl-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 14L14 2M14 2H7M14 2v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contato-form-wrap rv">
+          <form class="contato-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome completo" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Fale sobre seu projeto, ideia ou oportunidade..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <span>Enviar mensagem</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="form-note">* Formulário de demonstração — configure seu backend para enviar mensagens reais.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">Gustavo Mônaco<br><em>Yonekura</em></span>
+          <p class="footer-desc">Desenvolvedor web apaixonado por tecnologia e experiências digitais.</p>
+        </div>
+        <nav class="footer-nav">
+          <div class="footer-nav-col">
+            <span class="footer-nav-title">Navegação</span>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+          </div>
+          <div class="footer-nav-col">
+            <span class="footer-nav-title">Projetos</span>
+            <a href="https://gustahiro.github.io/site-arcor/" target="_blank" rel="noopener">Site Arcor</a>
+            <a href="https://gustahiro.github.io/Apresenta-oAW/" target="_blank" rel="noopener">AutoWork</a>
+          </div>
+          <div class="footer-nav-col">
+            <span class="footer-nav-title">Conectar</span>
+            <a href="https://github.com/gustahiro" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/gustavo-monaco-a02139399/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:gustahiro@gmail.com">E-mail</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="footerYear"></span> Gustavo Mônaco Yonekura — Todos os direitos reservados.</span>
+        <a href="#inicio" class="back-top" aria-label="Voltar ao topo">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Topo
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
